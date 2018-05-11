@@ -3,6 +3,10 @@
     font-size: 16px;
     font-family: "微軟正黑體";
 }
+hr
+{
+    height: 1px;
+}
 h1
 {
     font-size:50px;
