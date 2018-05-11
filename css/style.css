@@ -148,7 +148,8 @@ body .container
 {
     width: 300px;
     height: 400px;
-    padding: 60px 30px unset unset;
+    padding-top: 60px;
+    padding-left:30px;
 }
 
 #groups .card .card-body h1.card-title
