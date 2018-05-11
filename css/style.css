@@ -25,6 +25,10 @@ h1.xl
 {
     color: white;
 }
+.border-rect
+{
+    border-radius: 0 !important;
+}
 .btn-gold
 {
     border-color:#d7ac41;
@@ -67,7 +71,6 @@ body .container
 }
 #slogan .jumbotron
 {
-    border-radius: 0px;
     height: 100%;
     padding-top: 335px;
     padding-left:315px;
