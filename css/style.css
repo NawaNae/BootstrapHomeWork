@@ -11,6 +11,7 @@ h1
 h1.xl
 {
     font-size: 80px;
+    letter-spacing: 10px;
 }
 .font-dark
 {
@@ -71,7 +72,8 @@ body .container
     padding-top: 335px;
     padding-left:315px;
     padding-right: 315px;
-    background-image: url('../img/top-banner.jpg')
+    background-image: url('../img/top-banner.jpg');
+    text-shadow:0 2px 4px rgba(0,0,0,0.5);
 }
 #shit-talks
 {
