@@ -154,7 +154,7 @@ body .container
 
 #groups .card .card-body h1.card-title
 {
-    margin:30px 30px unset unset;
+    margin:0 0 15px 0px;
     font-size: 50px;
 }
 #groups .card .card-body h2.title
