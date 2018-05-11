@@ -33,6 +33,10 @@ h1.xl
 {
     border-radius: 0 !important;
 }
+.border-none
+{
+    border-style: none !important;
+}
 .btn-gold
 {
     border-color:#d7ac41;
@@ -43,6 +47,10 @@ h1.xl
 body .container
 {
     max-width:1440px ;
+}
+.navbar
+{
+    height: 130px;
 }
 .navbar-brand
 {
@@ -61,6 +69,7 @@ body .container
 }
 #header .nav-link.nav-item
 {
+    font-size: 14px;
     margin-right: 30px;
     padding:0px;
     color:#4a494b;
