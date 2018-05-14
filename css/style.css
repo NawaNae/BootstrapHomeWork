@@ -50,7 +50,7 @@ body .container
 }
 .navbar
 {
-    height: 130px;
+    min-height: 130px;
 }
 .navbar-brand
 {
@@ -80,16 +80,24 @@ body .container
 }
 #slogan
 {
-    height: 782px;
+    min-height: 782px;
 }
 #slogan .jumbotron
 {
-    height: 100%;
+    min-height: 100%;
     padding-top: 335px;
     padding-left:315px;
     padding-right: 315px;
+    margin-bottom: unset;
     background-image: url('../img/top-banner.jpg');
     text-shadow:0 2px 4px rgba(0,0,0,0.5);
+}
+@media screen and (max-width:936px)
+{
+    #slogan .jumbotron
+    {
+        padding:  335px 0px 0px 0px;
+    }
 }
 #slogan .jumbotron .lead
 {
@@ -97,7 +105,7 @@ body .container
 }
 #shit-talks
 {
-    height: 754px;
+    min-height: 754px;
     background-image: url("../img/about-bg.jpg");
 }
 #shit-talks>div>*
@@ -116,26 +124,32 @@ body .container
     font-weight: 300;
     line-height: 1.62;
 }
+@media screen and (max-width:936px)
+{
+    #shit-talks>div>p
+    {margin-left: 0px;
+    margin-right: 0px}
+}
 #shit-talks img[src="img/about-icon.png"]
 {
     margin: 100px 660px 40px 660px;
 }
 #services
 {
-    height: 667px;
+    min-height: 667px;
     background-image: url("../img/service-bg.jpg")
 }
 #services h1
 {
     margin-bottom: 40px;
 }
-#services .col-3
+#services .container>.row>div
 {
     padding-bottom:30px;
     padding-right:15px;
     padding-left: 15px
 }
-#services .col-3 .btn
+#services .container>.row>div .btn
 {
     width:270px;
     height: 60px;
@@ -148,7 +162,7 @@ body .container
 }
 #groups
 {
-    height: 820px;
+    min-height: 820px;
 }
 #groups h1
 {
@@ -201,7 +215,7 @@ body .container
 }
 #contact
 {
-    height: 437px;
+    min-height: 437px;
     background-image: url("../img/footer-bg.jpg");
     padding-left: 135px;
 }
@@ -223,7 +237,7 @@ body .container
 }
 footer#footer
 {
-    height: 48px;
+    min-height: 48px;
     color: white;
     background-color: #2b2c2c;
     text-align: center;
